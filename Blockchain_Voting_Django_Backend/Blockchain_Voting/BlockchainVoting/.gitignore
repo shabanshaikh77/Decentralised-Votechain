@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+lib/
+lib64/
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.env
+.env/
+bin/
+include/
+lib/
+lib64/
+share/
+pip-wheel-metadata/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Backup files
+*.bak
+
+# If using celery-beat with SQLite as a broker
+celerybeat-schedule
+celerybeat.pid
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# dotenv environment variables file
+.env
+
+# Python
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+pyproject.toml
+poetry.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# The .vscode/settings.json from vscode setup
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# MkDocs configurations
+/mkdocs.yml
+/site/
